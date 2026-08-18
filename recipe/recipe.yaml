@@ -1,5 +1,5 @@
 context:
-  version: "1.35"
+  version: "1.36"
 
 package:
   name: aws-lambda-runtime-interface-emulator
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/aws/aws-lambda-runtime-interface-emulator/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: b16996104d94f26b312bb16699b0fccc156185a41523cb3993e0c97536a29b56
+  sha256: cfde7e8a6741149970f81027c6458d8281e893a275f9ee144362eed9fe41bb2d
   target_directory: src
 
 build:
